@@ -4,7 +4,7 @@
 // - All data is mocked. Replace fetch* functions with your real APIs when ready.
 // - Map uses MapLibre public demo style; change MAP_STYLE_URL if needed.
 
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import maplibregl, { Map as MapLibreMap, GeoJSONSource } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 
